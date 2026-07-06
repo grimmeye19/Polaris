@@ -1,10 +1,12 @@
 enum MapEntryType: String, Codable, CaseIterable {
-    case gusto
-    case fecha
-    case frase
-    case detalle
-    case sensibilidad
-    case suenoMeta
-    case nosotros
-    case otro
+    case place
+    case person
+    case theme
+    case question
+    case signal
+    case resource
+    case obstacle
+    case decision
+    case boundary
+    case symbol
 }

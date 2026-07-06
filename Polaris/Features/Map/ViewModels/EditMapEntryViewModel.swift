@@ -9,13 +9,13 @@ final class EditMapEntryViewModel: ObservableObject {
     @Published private(set) var isSaving = false
 
     init(entry: MapEntry? = nil) {
-        type = entry?.type ?? .detalle
+        type = entry?.type ?? .signal
         title = entry?.title ?? ""
         content = entry?.content ?? ""
     }
 
     var canSave: Bool {
-        !isSaving && !trimmedTitle.isEmpty && !trimmedContent.isEmpty
+        !isSaving && !trimmedTitle.isEmpty
     }
 
     func saveEntry(for expedition: Expedition, editing entry: MapEntry?, in modelContext: ModelContext) throws {
@@ -49,22 +49,26 @@ final class EditMapEntryViewModel: ObservableObject {
 
     func title(for type: MapEntryType) -> String {
         switch type {
-        case .gusto:
-            "Gusto"
-        case .fecha:
-            "Fecha"
-        case .frase:
-            "Frase"
-        case .detalle:
-            "Detalle"
-        case .sensibilidad:
-            "Sensibilidad"
-        case .suenoMeta:
-            "Sueno/meta"
-        case .nosotros:
-            "Nosotros"
-        case .otro:
-            "Otro"
+        case .place:
+            "Lugar"
+        case .person:
+            "Persona"
+        case .theme:
+            "Tema"
+        case .question:
+            "Pregunta abierta"
+        case .signal:
+            "Senal observada"
+        case .resource:
+            "Recurso"
+        case .obstacle:
+            "Obstaculo"
+        case .decision:
+            "Decision"
+        case .boundary:
+            "Limite"
+        case .symbol:
+            "Simbolo"
         }
     }
 

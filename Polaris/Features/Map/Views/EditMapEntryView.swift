@@ -34,15 +34,15 @@ struct EditMapEntryView: View {
                 }
 
                 Section {
-                    TextField("Que conozco ahora?", text: $viewModel.content, axis: .vertical)
+                    TextField("Descripcion o notas", text: $viewModel.content, axis: .vertical)
                         .lineLimit(4...8)
                 } header: {
-                    Text("Contenido")
+                    Text("Notas")
                 } footer: {
-                    Text("Conocimiento acumulado de esta Expedicion. No es un perfil ni una conclusion.")
+                    Text("Pieza manual del territorio de esta Expedicion. Solo conserva memoria.")
                 }
             }
-            .navigationTitle(entry == nil ? "Nueva entrada" : "Editar entrada")
+            .navigationTitle(entry == nil ? "Agregar al territorio" : "Editar territorio")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
