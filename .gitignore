@@ -1,0 +1,26 @@
+.DS_Store
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Xcode
+build/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# User settings
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Archives
+*.xcarchive
+
+# Secrets
+.env
+Secrets.plist
+
+# Local backups / old versions
+*Polaris 1.0/

@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C2B4A9B2D4F4E3C9A4A0001 /* PolarisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4A9A2D4F4E3C9A4A0001 /* PolarisApp.swift */; };
+		8C2B4A9D2D4F4E3C9A4A0001 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4A9C2D4F4E3C9A4A0001 /* RootView.swift */; };
+		8C2B4AAB2D4F4E3C9A4A0001 /* PolarisModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AAA2D4F4E3C9A4A0001 /* PolarisModelContainer.swift */; };
+		8C2B4AAF2D4F4E3C9A4A0001 /* Expedition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AAD2D4F4E3C9A4A0001 /* Expedition.swift */; };
+		8C2B4AB02D4F4E3C9A4A0001 /* ExpeditionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AAE2D4F4E3C9A4A0001 /* ExpeditionStatus.swift */; };
+		8C2B4ABA2D4F4E3C9A4A0001 /* ExpeditionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AB82D4F4E3C9A4A0001 /* ExpeditionListView.swift */; };
+		8C2B4ABB2D4F4E3C9A4A0001 /* ExpeditionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AB92D4F4E3C9A4A0001 /* ExpeditionListViewModel.swift */; };
+		8C2B4AC02D4F4E3C9A4A0001 /* CreateExpeditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4ABE2D4F4E3C9A4A0001 /* CreateExpeditionView.swift */; };
+		8C2B4AC12D4F4E3C9A4A0001 /* CreateExpeditionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4ABF2D4F4E3C9A4A0001 /* CreateExpeditionViewModel.swift */; };
+		8C2B4AC52D4F4E3C9A4A0001 /* ExpeditionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AC32D4F4E3C9A4A0001 /* ExpeditionDetailView.swift */; };
+		8C2B4AC62D4F4E3C9A4A0001 /* ExpeditionNavigationDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AC42D4F4E3C9A4A0001 /* ExpeditionNavigationDestination.swift */; };
+		8C2B4AC92D4F4E3C9A4A0001 /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AC72D4F4E3C9A4A0001 /* Moment.swift */; };
+		8C2B4ACA2D4F4E3C9A4A0001 /* MomentImportance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AC82D4F4E3C9A4A0001 /* MomentImportance.swift */; };
+		8C2B4AD12D4F4E3C9A4A0001 /* CreateMomentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4ACF2D4F4E3C9A4A0001 /* CreateMomentView.swift */; };
+		8C2B4AD22D4F4E3C9A4A0001 /* CreateMomentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AD02D4F4E3C9A4A0001 /* CreateMomentViewModel.swift */; };
+		8C2B4AD52D4F4E3C9A4A0001 /* MomentPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AD42D4F4E3C9A4A0001 /* MomentPersistence.swift */; };
+		8C2B4ADA2D4F4E3C9A4A0001 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AD82D4F4E3C9A4A0001 /* HistoryView.swift */; };
+		8C2B4ADB2D4F4E3C9A4A0001 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AD92D4F4E3C9A4A0001 /* HistoryViewModel.swift */; };
+		8C2B4AE02D4F4E3C9A4A0001 /* MomentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4ADF2D4F4E3C9A4A0001 /* MomentDetailView.swift */; };
+		8C2B4AE32D4F4E3C9A4A0001 /* EditMomentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AE12D4F4E3C9A4A0001 /* EditMomentView.swift */; };
+		8C2B4AE42D4F4E3C9A4A0001 /* EditMomentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AE22D4F4E3C9A4A0001 /* EditMomentViewModel.swift */; };
+		8C2B4AE72D4F4E3C9A4A0001 /* MapEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AE52D4F4E3C9A4A0001 /* MapEntry.swift */; };
+		8C2B4AE82D4F4E3C9A4A0001 /* MapEntryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AE62D4F4E3C9A4A0001 /* MapEntryType.swift */; };
+		8C2B4AED2D4F4E3C9A4A0001 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AEB2D4F4E3C9A4A0001 /* MapView.swift */; };
+		8C2B4AEE2D4F4E3C9A4A0001 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AEC2D4F4E3C9A4A0001 /* MapViewModel.swift */; };
+		8C2B4AF22D4F4E3C9A4A0001 /* EditMapEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AF02D4F4E3C9A4A0001 /* EditMapEntryView.swift */; };
+		8C2B4AF32D4F4E3C9A4A0001 /* EditMapEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AF12D4F4E3C9A4A0001 /* EditMapEntryViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C2B4A972D4F4E3C9A4A0001 /* Polaris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polaris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2B4A9A2D4F4E3C9A4A0001 /* PolarisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarisApp.swift; sourceTree = "<group>"; };
+		8C2B4A9C2D4F4E3C9A4A0001 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		8C2B4AAA2D4F4E3C9A4A0001 /* PolarisModelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarisModelContainer.swift; sourceTree = "<group>"; };
+		8C2B4AAD2D4F4E3C9A4A0001 /* Expedition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expedition.swift; sourceTree = "<group>"; };
+		8C2B4AAE2D4F4E3C9A4A0001 /* ExpeditionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionStatus.swift; sourceTree = "<group>"; };
+		8C2B4AB82D4F4E3C9A4A0001 /* ExpeditionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionListView.swift; sourceTree = "<group>"; };
+		8C2B4AB92D4F4E3C9A4A0001 /* ExpeditionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionListViewModel.swift; sourceTree = "<group>"; };
+		8C2B4ABE2D4F4E3C9A4A0001 /* CreateExpeditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateExpeditionView.swift; sourceTree = "<group>"; };
+		8C2B4ABF2D4F4E3C9A4A0001 /* CreateExpeditionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateExpeditionViewModel.swift; sourceTree = "<group>"; };
+		8C2B4AC32D4F4E3C9A4A0001 /* ExpeditionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionDetailView.swift; sourceTree = "<group>"; };
+		8C2B4AC42D4F4E3C9A4A0001 /* ExpeditionNavigationDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionNavigationDestination.swift; sourceTree = "<group>"; };
+		8C2B4AC72D4F4E3C9A4A0001 /* Moment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
+		8C2B4AC82D4F4E3C9A4A0001 /* MomentImportance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentImportance.swift; sourceTree = "<group>"; };
+		8C2B4ACF2D4F4E3C9A4A0001 /* CreateMomentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMomentView.swift; sourceTree = "<group>"; };
+		8C2B4AD02D4F4E3C9A4A0001 /* CreateMomentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMomentViewModel.swift; sourceTree = "<group>"; };
+		8C2B4AD42D4F4E3C9A4A0001 /* MomentPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentPersistence.swift; sourceTree = "<group>"; };
+		8C2B4AD82D4F4E3C9A4A0001 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		8C2B4AD92D4F4E3C9A4A0001 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		8C2B4ADF2D4F4E3C9A4A0001 /* MomentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentDetailView.swift; sourceTree = "<group>"; };
+		8C2B4AE12D4F4E3C9A4A0001 /* EditMomentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMomentView.swift; sourceTree = "<group>"; };
+		8C2B4AE22D4F4E3C9A4A0001 /* EditMomentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMomentViewModel.swift; sourceTree = "<group>"; };
+		8C2B4AE52D4F4E3C9A4A0001 /* MapEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapEntry.swift; sourceTree = "<group>"; };
+		8C2B4AE62D4F4E3C9A4A0001 /* MapEntryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapEntryType.swift; sourceTree = "<group>"; };
+		8C2B4AEB2D4F4E3C9A4A0001 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8C2B4AEC2D4F4E3C9A4A0001 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		8C2B4AF02D4F4E3C9A4A0001 /* EditMapEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMapEntryView.swift; sourceTree = "<group>"; };
+		8C2B4AF12D4F4E3C9A4A0001 /* EditMapEntryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMapEntryViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C2B4A942D4F4E3C9A4A0001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C2B4A892D4F4E3C9A4A0001 = {
+			isa = PBXGroup;
+			children = (
+				8C2B4A982D4F4E3C9A4A0001 /* Polaris */,
+				8C2B4A882D4F4E3C9A4A0001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C2B4A882D4F4E3C9A4A0001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4A972D4F4E3C9A4A0001 /* Polaris.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C2B4A982D4F4E3C9A4A0001 /* Polaris */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4A992D4F4E3C9A4A0001 /* App */,
+				8C2B4AB12D4F4E3C9A4A0001 /* Domain */,
+				8C2B4AA92D4F4E3C9A4A0001 /* Data */,
+				8C2B4AB42D4F4E3C9A4A0001 /* Features */,
+				8C2B4AC22D4F4E3C9A4A0001 /* Navigation */,
+			);
+			path = Polaris;
+			sourceTree = "<group>";
+		};
+		8C2B4A992D4F4E3C9A4A0001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4A9A2D4F4E3C9A4A0001 /* PolarisApp.swift */,
+				8C2B4A9C2D4F4E3C9A4A0001 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8C2B4AA92D4F4E3C9A4A0001 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AAC2D4F4E3C9A4A0001 /* SwiftData */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8C2B4AAC2D4F4E3C9A4A0001 /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AAA2D4F4E3C9A4A0001 /* PolarisModelContainer.swift */,
+				8C2B4AD42D4F4E3C9A4A0001 /* MomentPersistence.swift */,
+			);
+			path = SwiftData;
+			sourceTree = "<group>";
+		};
+		8C2B4AB12D4F4E3C9A4A0001 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AB22D4F4E3C9A4A0001 /* Models */,
+				8C2B4AB32D4F4E3C9A4A0001 /* Enums */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		8C2B4AB22D4F4E3C9A4A0001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AAD2D4F4E3C9A4A0001 /* Expedition.swift */,
+				8C2B4AC72D4F4E3C9A4A0001 /* Moment.swift */,
+				8C2B4AE52D4F4E3C9A4A0001 /* MapEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C2B4AB32D4F4E3C9A4A0001 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AAE2D4F4E3C9A4A0001 /* ExpeditionStatus.swift */,
+				8C2B4AC82D4F4E3C9A4A0001 /* MomentImportance.swift */,
+				8C2B4AE62D4F4E3C9A4A0001 /* MapEntryType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		8C2B4AB42D4F4E3C9A4A0001 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AB52D4F4E3C9A4A0001 /* Expeditions */,
+				8C2B4ACB2D4F4E3C9A4A0001 /* Moments */,
+				8C2B4AD62D4F4E3C9A4A0001 /* History */,
+				8C2B4AE92D4F4E3C9A4A0001 /* Map */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		8C2B4AB52D4F4E3C9A4A0001 /* Expeditions */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AB62D4F4E3C9A4A0001 /* Views */,
+				8C2B4AB72D4F4E3C9A4A0001 /* ViewModels */,
+			);
+			path = Expeditions;
+			sourceTree = "<group>";
+		};
+		8C2B4AB62D4F4E3C9A4A0001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AB82D4F4E3C9A4A0001 /* ExpeditionListView.swift */,
+				8C2B4ABE2D4F4E3C9A4A0001 /* CreateExpeditionView.swift */,
+				8C2B4AC32D4F4E3C9A4A0001 /* ExpeditionDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C2B4AB72D4F4E3C9A4A0001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AB92D4F4E3C9A4A0001 /* ExpeditionListViewModel.swift */,
+				8C2B4ABF2D4F4E3C9A4A0001 /* CreateExpeditionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8C2B4ACB2D4F4E3C9A4A0001 /* Moments */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4ACD2D4F4E3C9A4A0001 /* Views */,
+				8C2B4ACE2D4F4E3C9A4A0001 /* ViewModels */,
+			);
+			path = Moments;
+			sourceTree = "<group>";
+		};
+		8C2B4ACD2D4F4E3C9A4A0001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4ACF2D4F4E3C9A4A0001 /* CreateMomentView.swift */,
+				8C2B4ADF2D4F4E3C9A4A0001 /* MomentDetailView.swift */,
+				8C2B4AE12D4F4E3C9A4A0001 /* EditMomentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C2B4ACE2D4F4E3C9A4A0001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AD02D4F4E3C9A4A0001 /* CreateMomentViewModel.swift */,
+				8C2B4AE22D4F4E3C9A4A0001 /* EditMomentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8C2B4AD62D4F4E3C9A4A0001 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4ADC2D4F4E3C9A4A0001 /* Views */,
+				8C2B4ADD2D4F4E3C9A4A0001 /* ViewModels */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		8C2B4AE92D4F4E3C9A4A0001 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AEA2D4F4E3C9A4A0001 /* Views */,
+				8C2B4AEF2D4F4E3C9A4A0001 /* ViewModels */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		8C2B4AEA2D4F4E3C9A4A0001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AEB2D4F4E3C9A4A0001 /* MapView.swift */,
+				8C2B4AF02D4F4E3C9A4A0001 /* EditMapEntryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C2B4AEF2D4F4E3C9A4A0001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AEC2D4F4E3C9A4A0001 /* MapViewModel.swift */,
+				8C2B4AF12D4F4E3C9A4A0001 /* EditMapEntryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8C2B4ADC2D4F4E3C9A4A0001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AD82D4F4E3C9A4A0001 /* HistoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C2B4ADD2D4F4E3C9A4A0001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AD92D4F4E3C9A4A0001 /* HistoryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8C2B4AC22D4F4E3C9A4A0001 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AC42D4F4E3C9A4A0001 /* ExpeditionNavigationDestination.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C2B4A962D4F4E3C9A4A0001 /* Polaris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2B4AA62D4F4E3C9A4A0001 /* Build configuration list for PBXNativeTarget "Polaris" */;
+			buildPhases = (
+				8C2B4A932D4F4E3C9A4A0001 /* Sources */,
+				8C2B4A942D4F4E3C9A4A0001 /* Frameworks */,
+				8C2B4A952D4F4E3C9A4A0001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polaris;
+			productName = Polaris;
+			productReference = 8C2B4A972D4F4E3C9A4A0001 /* Polaris.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C2B4A8A2D4F4E3C9A4A0001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					8C2B4A962D4F4E3C9A4A0001 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 8C2B4A8D2D4F4E3C9A4A0001 /* Build configuration list for PBXProject "Polaris" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C2B4A892D4F4E3C9A4A0001;
+			productRefGroup = 8C2B4A882D4F4E3C9A4A0001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C2B4A962D4F4E3C9A4A0001 /* Polaris */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C2B4A952D4F4E3C9A4A0001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C2B4A932D4F4E3C9A4A0001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2B4A9B2D4F4E3C9A4A0001 /* PolarisApp.swift in Sources */,
+				8C2B4A9D2D4F4E3C9A4A0001 /* RootView.swift in Sources */,
+				8C2B4AAB2D4F4E3C9A4A0001 /* PolarisModelContainer.swift in Sources */,
+				8C2B4AAF2D4F4E3C9A4A0001 /* Expedition.swift in Sources */,
+				8C2B4AB02D4F4E3C9A4A0001 /* ExpeditionStatus.swift in Sources */,
+				8C2B4ABA2D4F4E3C9A4A0001 /* ExpeditionListView.swift in Sources */,
+				8C2B4ABB2D4F4E3C9A4A0001 /* ExpeditionListViewModel.swift in Sources */,
+				8C2B4AC02D4F4E3C9A4A0001 /* CreateExpeditionView.swift in Sources */,
+				8C2B4AC12D4F4E3C9A4A0001 /* CreateExpeditionViewModel.swift in Sources */,
+				8C2B4AC52D4F4E3C9A4A0001 /* ExpeditionDetailView.swift in Sources */,
+				8C2B4AC62D4F4E3C9A4A0001 /* ExpeditionNavigationDestination.swift in Sources */,
+				8C2B4AC92D4F4E3C9A4A0001 /* Moment.swift in Sources */,
+				8C2B4ACA2D4F4E3C9A4A0001 /* MomentImportance.swift in Sources */,
+				8C2B4AD12D4F4E3C9A4A0001 /* CreateMomentView.swift in Sources */,
+				8C2B4AD22D4F4E3C9A4A0001 /* CreateMomentViewModel.swift in Sources */,
+				8C2B4AD52D4F4E3C9A4A0001 /* MomentPersistence.swift in Sources */,
+				8C2B4ADA2D4F4E3C9A4A0001 /* HistoryView.swift in Sources */,
+				8C2B4ADB2D4F4E3C9A4A0001 /* HistoryViewModel.swift in Sources */,
+				8C2B4AE02D4F4E3C9A4A0001 /* MomentDetailView.swift in Sources */,
+				8C2B4AE32D4F4E3C9A4A0001 /* EditMomentView.swift in Sources */,
+				8C2B4AE42D4F4E3C9A4A0001 /* EditMomentViewModel.swift in Sources */,
+				8C2B4AE72D4F4E3C9A4A0001 /* MapEntry.swift in Sources */,
+				8C2B4AE82D4F4E3C9A4A0001 /* MapEntryType.swift in Sources */,
+				8C2B4AED2D4F4E3C9A4A0001 /* MapView.swift in Sources */,
+				8C2B4AEE2D4F4E3C9A4A0001 /* MapViewModel.swift in Sources */,
+				8C2B4AF22D4F4E3C9A4A0001 /* EditMapEntryView.swift in Sources */,
+				8C2B4AF32D4F4E3C9A4A0001 /* EditMapEntryViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C2B4A8E2D4F4E3C9A4A0001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C2B4A8F2D4F4E3C9A4A0001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C2B4AA72D4F4E3C9A4A0001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Polaris;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lfrm.Polaris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C2B4AA82D4F4E3C9A4A0001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Polaris;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lfrm.Polaris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C2B4A8D2D4F4E3C9A4A0001 /* Build configuration list for PBXProject "Polaris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2B4A8E2D4F4E3C9A4A0001 /* Debug */,
+				8C2B4A8F2D4F4E3C9A4A0001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2B4AA62D4F4E3C9A4A0001 /* Build configuration list for PBXNativeTarget "Polaris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2B4AA72D4F4E3C9A4A0001 /* Debug */,
+				8C2B4AA82D4F4E3C9A4A0001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C2B4A8A2D4F4E3C9A4A0001 /* Project object */;
+}
