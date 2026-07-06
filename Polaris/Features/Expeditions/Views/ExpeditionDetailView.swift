@@ -95,6 +95,15 @@ struct ExpeditionDetailView: View {
             .controlSize(.large)
 
             NavigationLink {
+                CurrentsView(expedition: expedition)
+            } label: {
+                Label("Ver Corrientes", systemImage: "waveform.path.ecg")
+                    .frame(maxWidth: .infinity, alignment: .leading)
+            }
+            .buttonStyle(.bordered)
+            .controlSize(.large)
+
+            NavigationLink {
                 ConstellationView(scope: .expedition(expedition))
             } label: {
                 Label("Ver Constelacion", systemImage: "sparkles")
