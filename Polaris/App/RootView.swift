@@ -2,7 +2,17 @@ import SwiftUI
 
 struct RootView: View {
     var body: some View {
-        ExpeditionListView()
+        TabView {
+            ExpeditionListView()
+                .tabItem {
+                    Label("Expediciones", systemImage: "sailboat")
+                }
+
+            PortView()
+                .tabItem {
+                    Label("Puerto", systemImage: "house.fill")
+                }
+        }
     }
 }
 

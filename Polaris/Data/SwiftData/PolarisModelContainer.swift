@@ -5,7 +5,10 @@ enum PolarisModelContainer {
         let schema = Schema([
             Expedition.self,
             Moment.self,
-            MapEntry.self
+            MapEntry.self,
+            NavigatorLetter.self,
+            Provision.self,
+            Mantra.self
         ])
         let configuration = ModelConfiguration(
             schema: schema,
