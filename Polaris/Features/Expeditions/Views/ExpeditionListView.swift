@@ -17,6 +17,14 @@ struct ExpeditionListView: View {
             }
             .navigationTitle("Expediciones")
             .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    NavigationLink {
+                        ConstellationView(scope: .global)
+                    } label: {
+                        Label("Constelacion", systemImage: "sparkles")
+                    }
+                }
+
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
                         showsCreateExpedition = true

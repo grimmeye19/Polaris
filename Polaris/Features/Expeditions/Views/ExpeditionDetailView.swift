@@ -25,6 +25,15 @@ struct ExpeditionDetailView: View {
         .background(Color(.systemGroupedBackground))
         .navigationTitle("Expedicion")
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .primaryAction) {
+                NavigationLink {
+                    ExpeditionSettingsView(expedition: expedition)
+                } label: {
+                    Label("Ajustes", systemImage: "gearshape")
+                }
+            }
+        }
         .sheet(isPresented: $showsCreateMoment) {
             CreateMomentView(expedition: expedition)
         }
@@ -80,6 +89,15 @@ struct ExpeditionDetailView: View {
                 MapView(expedition: expedition)
             } label: {
                 Label("Ver Mapa", systemImage: "map")
+                    .frame(maxWidth: .infinity, alignment: .leading)
+            }
+            .buttonStyle(.bordered)
+            .controlSize(.large)
+
+            NavigationLink {
+                ConstellationView(scope: .expedition(expedition))
+            } label: {
+                Label("Ver Constelacion", systemImage: "sparkles")
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
             .buttonStyle(.bordered)
