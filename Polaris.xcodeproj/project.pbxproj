@@ -34,6 +34,28 @@
 		8C2B4AEE2D4F4E3C9A4A0001 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AEC2D4F4E3C9A4A0001 /* MapViewModel.swift */; };
 		8C2B4AF22D4F4E3C9A4A0001 /* EditMapEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AF02D4F4E3C9A4A0001 /* EditMapEntryView.swift */; };
 		8C2B4AF32D4F4E3C9A4A0001 /* EditMapEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AF12D4F4E3C9A4A0001 /* EditMapEntryViewModel.swift */; };
+		8C2B4AF72D4F4E3C9A4A0001 /* NavigatorLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AF42D4F4E3C9A4A0001 /* NavigatorLetter.swift */; };
+		8C2B4AF82D4F4E3C9A4A0001 /* Provision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AF52D4F4E3C9A4A0001 /* Provision.swift */; };
+		8C2B4AF92D4F4E3C9A4A0001 /* Mantra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4AF62D4F4E3C9A4A0001 /* Mantra.swift */; };
+		8C2B4B012D4F4E3C9A4A0001 /* PortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B032D4F4E3C9A4A0001 /* PortView.swift */; };
+		8C2B4B022D4F4E3C9A4A0001 /* PortViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B042D4F4E3C9A4A0001 /* PortViewModel.swift */; };
+		8C2B4B082D4F4E3C9A4A0001 /* NavigatorLetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B0A2D4F4E3C9A4A0001 /* NavigatorLetterView.swift */; };
+		8C2B4B092D4F4E3C9A4A0001 /* NavigatorLetterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B0B2D4F4E3C9A4A0001 /* NavigatorLetterViewModel.swift */; };
+		8C2B4B0C2D4F4E3C9A4A0001 /* ProvisionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B0F2D4F4E3C9A4A0001 /* ProvisionsView.swift */; };
+		8C2B4B0D2D4F4E3C9A4A0001 /* EditProvisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B102D4F4E3C9A4A0001 /* EditProvisionView.swift */; };
+		8C2B4B0E2D4F4E3C9A4A0001 /* ProvisionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B112D4F4E3C9A4A0001 /* ProvisionsViewModel.swift */; };
+		8C2B4B122D4F4E3C9A4A0001 /* MantrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B152D4F4E3C9A4A0001 /* MantrasView.swift */; };
+		8C2B4B132D4F4E3C9A4A0001 /* EditMantraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B162D4F4E3C9A4A0001 /* EditMantraView.swift */; };
+		8C2B4B142D4F4E3C9A4A0001 /* MantrasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B172D4F4E3C9A4A0001 /* MantrasViewModel.swift */; };
+		8C2B4B182D4F4E3C9A4A0001 /* ExpeditionSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B1A2D4F4E3C9A4A0001 /* ExpeditionSettingsView.swift */; };
+		8C2B4B192D4F4E3C9A4A0001 /* ExpeditionSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B1B2D4F4E3C9A4A0001 /* ExpeditionSettingsViewModel.swift */; };
+		8C2B4B202D4F4E3C9A4A0001 /* ConstellationLayoutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B242D4F4E3C9A4A0001 /* ConstellationLayoutProvider.swift */; };
+		8C2B4B212D4F4E3C9A4A0001 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B252D4F4E3C9A4A0001 /* StarView.swift */; };
+		8C2B4B222D4F4E3C9A4A0001 /* ConstellationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B262D4F4E3C9A4A0001 /* ConstellationViewModel.swift */; };
+		8C2B4B232D4F4E3C9A4A0001 /* ConstellationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B272D4F4E3C9A4A0001 /* ConstellationView.swift */; };
+		8C2B4B302D4F4E3C9A4A0001 /* MapLayoutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B332D4F4E3C9A4A0001 /* MapLayoutProvider.swift */; };
+		8C2B4B312D4F4E3C9A4A0001 /* MapTerritoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B342D4F4E3C9A4A0001 /* MapTerritoryView.swift */; };
+		8C2B4B322D4F4E3C9A4A0001 /* MapItemNodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B352D4F4E3C9A4A0001 /* MapItemNodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +87,28 @@
 		8C2B4AEC2D4F4E3C9A4A0001 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		8C2B4AF02D4F4E3C9A4A0001 /* EditMapEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMapEntryView.swift; sourceTree = "<group>"; };
 		8C2B4AF12D4F4E3C9A4A0001 /* EditMapEntryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMapEntryViewModel.swift; sourceTree = "<group>"; };
+		8C2B4AF42D4F4E3C9A4A0001 /* NavigatorLetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorLetter.swift; sourceTree = "<group>"; };
+		8C2B4AF52D4F4E3C9A4A0001 /* Provision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provision.swift; sourceTree = "<group>"; };
+		8C2B4AF62D4F4E3C9A4A0001 /* Mantra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mantra.swift; sourceTree = "<group>"; };
+		8C2B4B032D4F4E3C9A4A0001 /* PortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortView.swift; sourceTree = "<group>"; };
+		8C2B4B042D4F4E3C9A4A0001 /* PortViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortViewModel.swift; sourceTree = "<group>"; };
+		8C2B4B0A2D4F4E3C9A4A0001 /* NavigatorLetterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorLetterView.swift; sourceTree = "<group>"; };
+		8C2B4B0B2D4F4E3C9A4A0001 /* NavigatorLetterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorLetterViewModel.swift; sourceTree = "<group>"; };
+		8C2B4B0F2D4F4E3C9A4A0001 /* ProvisionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisionsView.swift; sourceTree = "<group>"; };
+		8C2B4B102D4F4E3C9A4A0001 /* EditProvisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProvisionView.swift; sourceTree = "<group>"; };
+		8C2B4B112D4F4E3C9A4A0001 /* ProvisionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisionsViewModel.swift; sourceTree = "<group>"; };
+		8C2B4B152D4F4E3C9A4A0001 /* MantrasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MantrasView.swift; sourceTree = "<group>"; };
+		8C2B4B162D4F4E3C9A4A0001 /* EditMantraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMantraView.swift; sourceTree = "<group>"; };
+		8C2B4B172D4F4E3C9A4A0001 /* MantrasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MantrasViewModel.swift; sourceTree = "<group>"; };
+		8C2B4B1A2D4F4E3C9A4A0001 /* ExpeditionSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionSettingsView.swift; sourceTree = "<group>"; };
+		8C2B4B1B2D4F4E3C9A4A0001 /* ExpeditionSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionSettingsViewModel.swift; sourceTree = "<group>"; };
+		8C2B4B242D4F4E3C9A4A0001 /* ConstellationLayoutProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstellationLayoutProvider.swift; sourceTree = "<group>"; };
+		8C2B4B252D4F4E3C9A4A0001 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		8C2B4B262D4F4E3C9A4A0001 /* ConstellationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstellationViewModel.swift; sourceTree = "<group>"; };
+		8C2B4B272D4F4E3C9A4A0001 /* ConstellationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstellationView.swift; sourceTree = "<group>"; };
+		8C2B4B332D4F4E3C9A4A0001 /* MapLayoutProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLayoutProvider.swift; sourceTree = "<group>"; };
+		8C2B4B342D4F4E3C9A4A0001 /* MapTerritoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTerritoryView.swift; sourceTree = "<group>"; };
+		8C2B4B352D4F4E3C9A4A0001 /* MapItemNodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapItemNodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +144,7 @@
 				8C2B4A992D4F4E3C9A4A0001 /* App */,
 				8C2B4AB12D4F4E3C9A4A0001 /* Domain */,
 				8C2B4AA92D4F4E3C9A4A0001 /* Data */,
+				8C2B4B2C2D4F4E3C9A4A0001 /* DesignSystem */,
 				8C2B4AB42D4F4E3C9A4A0001 /* Features */,
 				8C2B4AC22D4F4E3C9A4A0001 /* Navigation */,
 			);
@@ -137,6 +182,7 @@
 			children = (
 				8C2B4AB22D4F4E3C9A4A0001 /* Models */,
 				8C2B4AB32D4F4E3C9A4A0001 /* Enums */,
+				8C2B4B282D4F4E3C9A4A0001 /* Rules */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -147,6 +193,9 @@
 				8C2B4AAD2D4F4E3C9A4A0001 /* Expedition.swift */,
 				8C2B4AC72D4F4E3C9A4A0001 /* Moment.swift */,
 				8C2B4AE52D4F4E3C9A4A0001 /* MapEntry.swift */,
+				8C2B4AF42D4F4E3C9A4A0001 /* NavigatorLetter.swift */,
+				8C2B4AF52D4F4E3C9A4A0001 /* Provision.swift */,
+				8C2B4AF62D4F4E3C9A4A0001 /* Mantra.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,6 +210,15 @@
 			path = Enums;
 			sourceTree = "<group>";
 		};
+		8C2B4B282D4F4E3C9A4A0001 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4B242D4F4E3C9A4A0001 /* ConstellationLayoutProvider.swift */,
+				8C2B4B332D4F4E3C9A4A0001 /* MapLayoutProvider.swift */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
 		8C2B4AB42D4F4E3C9A4A0001 /* Features */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +226,8 @@
 				8C2B4ACB2D4F4E3C9A4A0001 /* Moments */,
 				8C2B4AD62D4F4E3C9A4A0001 /* History */,
 				8C2B4AE92D4F4E3C9A4A0001 /* Map */,
+				8C2B4B052D4F4E3C9A4A0001 /* Port */,
+				8C2B4B292D4F4E3C9A4A0001 /* Constellation */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -187,6 +247,7 @@
 				8C2B4AB82D4F4E3C9A4A0001 /* ExpeditionListView.swift */,
 				8C2B4ABE2D4F4E3C9A4A0001 /* CreateExpeditionView.swift */,
 				8C2B4AC32D4F4E3C9A4A0001 /* ExpeditionDetailView.swift */,
+				8C2B4B1A2D4F4E3C9A4A0001 /* ExpeditionSettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,6 +257,7 @@
 			children = (
 				8C2B4AB92D4F4E3C9A4A0001 /* ExpeditionListViewModel.swift */,
 				8C2B4ABF2D4F4E3C9A4A0001 /* CreateExpeditionViewModel.swift */,
+				8C2B4B1B2D4F4E3C9A4A0001 /* ExpeditionSettingsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -250,6 +312,8 @@
 			isa = PBXGroup;
 			children = (
 				8C2B4AEB2D4F4E3C9A4A0001 /* MapView.swift */,
+				8C2B4B342D4F4E3C9A4A0001 /* MapTerritoryView.swift */,
+				8C2B4B352D4F4E3C9A4A0001 /* MapItemNodeView.swift */,
 				8C2B4AF02D4F4E3C9A4A0001 /* EditMapEntryView.swift */,
 			);
 			path = Views;
@@ -262,6 +326,80 @@
 				8C2B4AF12D4F4E3C9A4A0001 /* EditMapEntryViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8C2B4B052D4F4E3C9A4A0001 /* Port */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4B062D4F4E3C9A4A0001 /* Views */,
+				8C2B4B072D4F4E3C9A4A0001 /* ViewModels */,
+			);
+			path = Port;
+			sourceTree = "<group>";
+		};
+		8C2B4B062D4F4E3C9A4A0001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4B032D4F4E3C9A4A0001 /* PortView.swift */,
+				8C2B4B0A2D4F4E3C9A4A0001 /* NavigatorLetterView.swift */,
+				8C2B4B0F2D4F4E3C9A4A0001 /* ProvisionsView.swift */,
+				8C2B4B102D4F4E3C9A4A0001 /* EditProvisionView.swift */,
+				8C2B4B152D4F4E3C9A4A0001 /* MantrasView.swift */,
+				8C2B4B162D4F4E3C9A4A0001 /* EditMantraView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C2B4B072D4F4E3C9A4A0001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4B042D4F4E3C9A4A0001 /* PortViewModel.swift */,
+				8C2B4B0B2D4F4E3C9A4A0001 /* NavigatorLetterViewModel.swift */,
+				8C2B4B112D4F4E3C9A4A0001 /* ProvisionsViewModel.swift */,
+				8C2B4B172D4F4E3C9A4A0001 /* MantrasViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8C2B4B292D4F4E3C9A4A0001 /* Constellation */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4B2A2D4F4E3C9A4A0001 /* Views */,
+				8C2B4B2B2D4F4E3C9A4A0001 /* ViewModels */,
+			);
+			path = Constellation;
+			sourceTree = "<group>";
+		};
+		8C2B4B2A2D4F4E3C9A4A0001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4B272D4F4E3C9A4A0001 /* ConstellationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C2B4B2B2D4F4E3C9A4A0001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4B262D4F4E3C9A4A0001 /* ConstellationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8C2B4B2C2D4F4E3C9A4A0001 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4B2D2D4F4E3C9A4A0001 /* Components */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		8C2B4B2D2D4F4E3C9A4A0001 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4B252D4F4E3C9A4A0001 /* StarView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		8C2B4ADC2D4F4E3C9A4A0001 /* Views */ = {
@@ -383,6 +521,28 @@
 				8C2B4AEE2D4F4E3C9A4A0001 /* MapViewModel.swift in Sources */,
 				8C2B4AF22D4F4E3C9A4A0001 /* EditMapEntryView.swift in Sources */,
 				8C2B4AF32D4F4E3C9A4A0001 /* EditMapEntryViewModel.swift in Sources */,
+				8C2B4AF72D4F4E3C9A4A0001 /* NavigatorLetter.swift in Sources */,
+				8C2B4AF82D4F4E3C9A4A0001 /* Provision.swift in Sources */,
+				8C2B4AF92D4F4E3C9A4A0001 /* Mantra.swift in Sources */,
+				8C2B4B012D4F4E3C9A4A0001 /* PortView.swift in Sources */,
+				8C2B4B022D4F4E3C9A4A0001 /* PortViewModel.swift in Sources */,
+				8C2B4B082D4F4E3C9A4A0001 /* NavigatorLetterView.swift in Sources */,
+				8C2B4B092D4F4E3C9A4A0001 /* NavigatorLetterViewModel.swift in Sources */,
+				8C2B4B0C2D4F4E3C9A4A0001 /* ProvisionsView.swift in Sources */,
+				8C2B4B0D2D4F4E3C9A4A0001 /* EditProvisionView.swift in Sources */,
+				8C2B4B0E2D4F4E3C9A4A0001 /* ProvisionsViewModel.swift in Sources */,
+				8C2B4B122D4F4E3C9A4A0001 /* MantrasView.swift in Sources */,
+				8C2B4B132D4F4E3C9A4A0001 /* EditMantraView.swift in Sources */,
+				8C2B4B142D4F4E3C9A4A0001 /* MantrasViewModel.swift in Sources */,
+				8C2B4B182D4F4E3C9A4A0001 /* ExpeditionSettingsView.swift in Sources */,
+				8C2B4B192D4F4E3C9A4A0001 /* ExpeditionSettingsViewModel.swift in Sources */,
+				8C2B4B202D4F4E3C9A4A0001 /* ConstellationLayoutProvider.swift in Sources */,
+				8C2B4B212D4F4E3C9A4A0001 /* StarView.swift in Sources */,
+				8C2B4B222D4F4E3C9A4A0001 /* ConstellationViewModel.swift in Sources */,
+				8C2B4B232D4F4E3C9A4A0001 /* ConstellationView.swift in Sources */,
+				8C2B4B302D4F4E3C9A4A0001 /* MapLayoutProvider.swift in Sources */,
+				8C2B4B312D4F4E3C9A4A0001 /* MapTerritoryView.swift in Sources */,
+				8C2B4B322D4F4E3C9A4A0001 /* MapItemNodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
