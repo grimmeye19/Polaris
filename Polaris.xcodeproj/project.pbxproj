@@ -59,6 +59,9 @@
 		8C2B4B362D4F4E3C9A4A0001 /* CurrentsCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B392D4F4E3C9A4A0001 /* CurrentsCalculator.swift */; };
 		8C2B4B372D4F4E3C9A4A0001 /* CurrentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B3A2D4F4E3C9A4A0001 /* CurrentsViewModel.swift */; };
 		8C2B4B382D4F4E3C9A4A0001 /* CurrentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B3B2D4F4E3C9A4A0001 /* CurrentsView.swift */; };
+		8C2B4B402D4F4E3C9A4A0001 /* StormProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B432D4F4E3C9A4A0001 /* StormProtocol.swift */; };
+		8C2B4B412D4F4E3C9A4A0001 /* StormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B442D4F4E3C9A4A0001 /* StormViewModel.swift */; };
+		8C2B4B422D4F4E3C9A4A0001 /* StormStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B452D4F4E3C9A4A0001 /* StormStartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -115,6 +118,9 @@
 		8C2B4B392D4F4E3C9A4A0001 /* CurrentsCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentsCalculator.swift; sourceTree = "<group>"; };
 		8C2B4B3A2D4F4E3C9A4A0001 /* CurrentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentsViewModel.swift; sourceTree = "<group>"; };
 		8C2B4B3B2D4F4E3C9A4A0001 /* CurrentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentsView.swift; sourceTree = "<group>"; };
+		8C2B4B432D4F4E3C9A4A0001 /* StormProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormProtocol.swift; sourceTree = "<group>"; };
+		8C2B4B442D4F4E3C9A4A0001 /* StormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormViewModel.swift; sourceTree = "<group>"; };
+		8C2B4B452D4F4E3C9A4A0001 /* StormStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormStartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +228,7 @@
 				8C2B4B242D4F4E3C9A4A0001 /* ConstellationLayoutProvider.swift */,
 				8C2B4B332D4F4E3C9A4A0001 /* MapLayoutProvider.swift */,
 				8C2B4B392D4F4E3C9A4A0001 /* CurrentsCalculator.swift */,
+				8C2B4B432D4F4E3C9A4A0001 /* StormProtocol.swift */,
 			);
 			path = Rules;
 			sourceTree = "<group>";
@@ -236,6 +243,7 @@
 				8C2B4B052D4F4E3C9A4A0001 /* Port */,
 				8C2B4B292D4F4E3C9A4A0001 /* Constellation */,
 				8C2B4B3C2D4F4E3C9A4A0001 /* Currents */,
+				8C2B4B462D4F4E3C9A4A0001 /* Storm */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -419,6 +427,31 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		8C2B4B462D4F4E3C9A4A0001 /* Storm */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4B472D4F4E3C9A4A0001 /* Views */,
+				8C2B4B482D4F4E3C9A4A0001 /* ViewModels */,
+			);
+			path = Storm;
+			sourceTree = "<group>";
+		};
+		8C2B4B472D4F4E3C9A4A0001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4B452D4F4E3C9A4A0001 /* StormStartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C2B4B482D4F4E3C9A4A0001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4B442D4F4E3C9A4A0001 /* StormViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		8C2B4B2C2D4F4E3C9A4A0001 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
@@ -579,6 +612,9 @@
 				8C2B4B362D4F4E3C9A4A0001 /* CurrentsCalculator.swift in Sources */,
 				8C2B4B372D4F4E3C9A4A0001 /* CurrentsViewModel.swift in Sources */,
 				8C2B4B382D4F4E3C9A4A0001 /* CurrentsView.swift in Sources */,
+				8C2B4B402D4F4E3C9A4A0001 /* StormProtocol.swift in Sources */,
+				8C2B4B412D4F4E3C9A4A0001 /* StormViewModel.swift in Sources */,
+				8C2B4B422D4F4E3C9A4A0001 /* StormStartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

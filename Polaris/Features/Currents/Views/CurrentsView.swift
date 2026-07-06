@@ -7,6 +7,10 @@ struct CurrentsView: View {
     @Query(sort: \Moment.occurredAt, order: .forward) private var globalMoments: [Moment]
     @StateObject private var viewModel = CurrentsViewModel()
 
+    init(expedition: Expedition) {
+        self.expedition = expedition
+    }
+
     var body: some View {
         let summary = viewModel.summary(for: expedition, globalMoments: globalMoments)
 
