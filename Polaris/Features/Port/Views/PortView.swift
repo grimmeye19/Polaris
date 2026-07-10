@@ -50,20 +50,10 @@ struct PortView: View {
                 )
 
             if expeditions.isEmpty && moments.isEmpty {
-                VStack(alignment: .leading, spacing: 8) {
-                    Text(viewModel.emptyTitle)
-                        .font(.headline)
-
-                    Text(viewModel.emptyMessage)
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
-                .padding(16)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .background(
-                    RoundedRectangle(cornerRadius: 8)
-                        .fill(Color(.secondarySystemGroupedBackground))
+                EmptyStateView(
+                    title: viewModel.emptyTitle,
+                    message: viewModel.emptyMessage,
+                    systemImage: "house"
                 )
             }
         }

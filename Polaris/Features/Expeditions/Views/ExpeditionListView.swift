@@ -83,25 +83,14 @@ struct ExpeditionListView: View {
         VStack(alignment: .leading, spacing: 18) {
             Spacer()
 
-            VStack(alignment: .leading, spacing: 10) {
-                Text(viewModel.emptyTitle)
-                    .font(.title2)
-                    .fontWeight(.semibold)
-
-                Text(viewModel.emptyMessage)
-                    .font(.body)
-                    .foregroundStyle(.secondary)
-                    .fixedSize(horizontal: false, vertical: true)
-            }
-
-            Button {
+            EmptyStateView(
+                title: viewModel.emptyTitle,
+                message: viewModel.emptyMessage,
+                systemImage: "sailboat",
+                actionTitle: "Nueva Expedicion"
+            ) {
                 showsCreateExpedition = true
-            } label: {
-                Label("Nueva Expedicion", systemImage: "plus")
-                    .frame(maxWidth: .infinity)
             }
-            .buttonStyle(.borderedProminent)
-            .controlSize(.large)
 
             Spacer()
         }

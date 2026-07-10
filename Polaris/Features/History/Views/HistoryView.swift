@@ -39,14 +39,11 @@ struct HistoryView: View {
         VStack(alignment: .leading, spacing: 12) {
             Spacer()
 
-            Text(viewModel.emptyTitle)
-                .font(.title2)
-                .fontWeight(.semibold)
-
-            Text(viewModel.emptyMessage)
-                .font(.body)
-                .foregroundStyle(.secondary)
-                .fixedSize(horizontal: false, vertical: true)
+            EmptyStateView(
+                title: viewModel.emptyTitle,
+                message: viewModel.emptyMessage,
+                systemImage: "book.pages"
+            )
 
             Spacer()
         }

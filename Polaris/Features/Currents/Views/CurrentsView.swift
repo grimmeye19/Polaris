@@ -51,16 +51,11 @@ struct CurrentsView: View {
     }
 
     private var emptyState: some View {
-        CurrentsCard {
-            VStack(alignment: .leading, spacing: 8) {
-                Text(viewModel.emptyTitle)
-                    .font(.headline)
-
-                Text(viewModel.emptyMessage)
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
-            }
-        }
+        EmptyStateView(
+            title: viewModel.emptyTitle,
+            message: viewModel.emptyMessage,
+            systemImage: "waveform.path.ecg"
+        )
     }
 
     private func summarySection(_ summary: CurrentsSummary) -> some View {

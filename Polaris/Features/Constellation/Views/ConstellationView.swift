@@ -30,17 +30,11 @@ struct ConstellationView: View {
     }
 
     private var emptyState: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            Text(viewModel.emptyTitle)
-                .font(.title2)
-                .fontWeight(.semibold)
-                .foregroundStyle(.white)
-
-            Text(viewModel.emptyMessage)
-                .font(.body)
-                .foregroundStyle(.white.opacity(0.70))
-                .fixedSize(horizontal: false, vertical: true)
-        }
+        EmptyStateView(
+            title: viewModel.emptyTitle,
+            message: viewModel.emptyMessage,
+            systemImage: "sparkles"
+        )
         .padding(24)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
     }

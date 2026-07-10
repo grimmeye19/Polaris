@@ -98,23 +98,14 @@ struct MapView: View {
         VStack(alignment: .leading, spacing: 12) {
             Spacer()
 
-            Text(viewModel.emptyTitle)
-                .font(.title2)
-                .fontWeight(.semibold)
-
-            Text(viewModel.emptyMessage)
-                .font(.body)
-                .foregroundStyle(.secondary)
-                .fixedSize(horizontal: false, vertical: true)
-
-            Button {
+            EmptyStateView(
+                title: viewModel.emptyTitle,
+                message: viewModel.emptyMessage,
+                systemImage: "map",
+                actionTitle: "Agregar al territorio"
+            ) {
                 showsCreateEntry = true
-            } label: {
-                Label("Agregar al territorio", systemImage: "plus")
             }
-            .buttonStyle(.borderedProminent)
-            .controlSize(.large)
-            .padding(.top, 8)
 
             Spacer()
         }
