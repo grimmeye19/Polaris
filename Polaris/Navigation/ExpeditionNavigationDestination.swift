@@ -20,7 +20,7 @@ enum ExpeditionNavigationDestination: String, Identifiable {
     var unavailableMessage: String {
         switch self {
         case .registerMoment:
-            "El registro de Momentos se implementara en la siguiente mision."
+            "El registro de Momentos se implementará en la siguiente misión."
         case .history:
             "La Historia se activará cuando existan Momentos dentro de la Expedición."
         }
