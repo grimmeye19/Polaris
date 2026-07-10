@@ -203,8 +203,8 @@ private enum MapDisplayMode: CaseIterable {
                     expedition.mapEntries = [
                         MapEntry(
                     expedition: expedition,
-                    type: .signal,
-                    title: "Senal observada",
+                    type: .detail,
+                    title: "Detalle observado",
                     content: "Una pieza que conviene conservar con calma."
                 )
             ]

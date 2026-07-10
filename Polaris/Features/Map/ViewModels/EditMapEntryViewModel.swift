@@ -9,7 +9,7 @@ final class EditMapEntryViewModel: ObservableObject {
     @Published private(set) var isSaving = false
 
     init(entry: MapEntry? = nil) {
-        type = entry?.type ?? .signal
+        type = entry?.type ?? .detail
         title = entry?.title ?? ""
         content = entry?.content ?? ""
     }
@@ -48,28 +48,7 @@ final class EditMapEntryViewModel: ObservableObject {
     }
 
     func title(for type: MapEntryType) -> String {
-        switch type {
-        case .place:
-            "Lugar"
-        case .person:
-            "Persona"
-        case .theme:
-            "Tema"
-        case .question:
-            "Pregunta abierta"
-        case .signal:
-            "Senal observada"
-        case .resource:
-            "Recurso"
-        case .obstacle:
-            "Obstaculo"
-        case .decision:
-            "Decision"
-        case .boundary:
-            "Limite"
-        case .symbol:
-            "Simbolo"
-        }
+        type.displayName
     }
 
     private var trimmedTitle: String {

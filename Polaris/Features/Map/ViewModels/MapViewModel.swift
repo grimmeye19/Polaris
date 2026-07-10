@@ -4,7 +4,7 @@ import SwiftData
 @MainActor
 final class MapViewModel: ObservableObject {
     let emptyTitle = "Aun no hay territorio guardado"
-    let emptyMessage = "El Mapa crecera cuando guardes lugares, senales, preguntas, simbolos o recursos de esta Expedicion."
+    let emptyMessage = "El Mapa crecera cuando guardes gustos, fechas, frases, detalles o recuerdos compartidos de esta Expedicion."
 
     private let layoutProvider = MapLayoutProvider()
 
@@ -55,75 +55,46 @@ final class MapViewModel: ObservableObject {
 
     func title(for type: MapEntryType) -> String {
         switch type {
-        case .place:
-            "Lugares"
-        case .person:
-            "Personas"
-        case .theme:
-            "Temas"
-        case .question:
-            "Preguntas"
-        case .signal:
-            "Senales"
-        case .resource:
-            "Recursos"
-        case .obstacle:
-            "Obstaculos"
-        case .decision:
-            "Decisiones"
-        case .boundary:
-            "Limites"
-        case .symbol:
-            "Simbolos"
+        case .taste:
+            "Gustos"
+        case .date:
+            "Fechas"
+        case .quote:
+            "Frases"
+        case .detail:
+            "Detalles"
+        case .sensitivity:
+            "Sensibilidades"
+        case .dreamGoal:
+            "Sueños / metas"
+        case .us:
+            "Nosotros"
+        case .other:
+            "Otros"
         }
     }
 
     func shortTitle(for type: MapEntryType) -> String {
-        switch type {
-        case .place:
-            "Lugar"
-        case .person:
-            "Persona"
-        case .theme:
-            "Tema"
-        case .question:
-            "Pregunta"
-        case .signal:
-            "Senal"
-        case .resource:
-            "Recurso"
-        case .obstacle:
-            "Obstaculo"
-        case .decision:
-            "Decision"
-        case .boundary:
-            "Limite"
-        case .symbol:
-            "Simbolo"
-        }
+        type.displayName
     }
 
     func icon(for type: MapEntryType) -> String {
         switch type {
-        case .place:
+        case .taste:
             "◇"
-        case .person:
+        case .date:
             "●"
-        case .theme:
+        case .quote:
             "#"
-        case .question:
+        case .detail:
             "?"
-        case .signal:
+        case .sensitivity:
             "~"
-        case .resource:
+        case .dreamGoal:
             "+"
-        case .obstacle:
+        case .us:
             "△"
-        case .decision:
-            "→"
-        case .boundary:
-            "|"
-        case .symbol:
+        case .other:
             "✦"
         }
     }

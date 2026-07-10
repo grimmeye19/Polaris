@@ -41,26 +41,22 @@ struct MapLayoutProvider {
 
     private func regionCenter(for type: MapEntryType) -> (x: Double, y: Double) {
         switch type {
-        case .place:
+        case .taste:
             return (0.22, 0.22)
-        case .person:
+        case .date:
             return (0.50, 0.22)
-        case .theme:
+        case .quote:
             return (0.78, 0.22)
-        case .question:
+        case .detail:
             return (0.22, 0.48)
-        case .signal:
+        case .sensitivity:
             return (0.50, 0.48)
-        case .resource:
+        case .dreamGoal:
             return (0.78, 0.48)
-        case .obstacle:
-            return (0.22, 0.74)
-        case .decision:
-            return (0.50, 0.74)
-        case .boundary:
-            return (0.68, 0.74)
-        case .symbol:
-            return (0.84, 0.74)
+        case .us:
+            return (0.34, 0.74)
+        case .other:
+            return (0.66, 0.74)
         }
     }
 
