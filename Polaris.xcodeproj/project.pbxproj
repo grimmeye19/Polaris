@@ -134,20 +134,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8C2B4A892D4F4E3C9A4A0001 = {
-			isa = PBXGroup;
-			children = (
-				8C2B4A982D4F4E3C9A4A0001 /* Polaris */,
-				8C2B4A882D4F4E3C9A4A0001 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
 		8C2B4A882D4F4E3C9A4A0001 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				8C2B4A972D4F4E3C9A4A0001 /* Polaris.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8C2B4A892D4F4E3C9A4A0001 = {
+			isa = PBXGroup;
+			children = (
+				8C2B4A982D4F4E3C9A4A0001 /* Polaris */,
+				8C2B4A882D4F4E3C9A4A0001 /* Products */,
+			);
 			sourceTree = "<group>";
 		};
 		8C2B4A982D4F4E3C9A4A0001 /* Polaris */ = {
@@ -222,17 +222,6 @@
 			path = Enums;
 			sourceTree = "<group>";
 		};
-		8C2B4B282D4F4E3C9A4A0001 /* Rules */ = {
-			isa = PBXGroup;
-			children = (
-				8C2B4B242D4F4E3C9A4A0001 /* ConstellationLayoutProvider.swift */,
-				8C2B4B332D4F4E3C9A4A0001 /* MapLayoutProvider.swift */,
-				8C2B4B392D4F4E3C9A4A0001 /* CurrentsCalculator.swift */,
-				8C2B4B432D4F4E3C9A4A0001 /* StormProtocol.swift */,
-			);
-			path = Rules;
-			sourceTree = "<group>";
-		};
 		8C2B4AB42D4F4E3C9A4A0001 /* Features */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +267,14 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		8C2B4AC22D4F4E3C9A4A0001 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AC42D4F4E3C9A4A0001 /* ExpeditionNavigationDestination.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		8C2B4ACB2D4F4E3C9A4A0001 /* Moments */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +310,22 @@
 				8C2B4ADD2D4F4E3C9A4A0001 /* ViewModels */,
 			);
 			path = History;
+			sourceTree = "<group>";
+		};
+		8C2B4ADC2D4F4E3C9A4A0001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AD82D4F4E3C9A4A0001 /* HistoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C2B4ADD2D4F4E3C9A4A0001 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4AD92D4F4E3C9A4A0001 /* HistoryViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		8C2B4AE92D4F4E3C9A4A0001 /* Map */ = {
@@ -377,6 +390,17 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		8C2B4B282D4F4E3C9A4A0001 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4B242D4F4E3C9A4A0001 /* ConstellationLayoutProvider.swift */,
+				8C2B4B332D4F4E3C9A4A0001 /* MapLayoutProvider.swift */,
+				8C2B4B392D4F4E3C9A4A0001 /* CurrentsCalculator.swift */,
+				8C2B4B432D4F4E3C9A4A0001 /* StormProtocol.swift */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
 		8C2B4B292D4F4E3C9A4A0001 /* Constellation */ = {
 			isa = PBXGroup;
 			children = (
@@ -400,6 +424,22 @@
 				8C2B4B262D4F4E3C9A4A0001 /* ConstellationViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8C2B4B2C2D4F4E3C9A4A0001 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4B2D2D4F4E3C9A4A0001 /* Components */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		8C2B4B2D2D4F4E3C9A4A0001 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4B252D4F4E3C9A4A0001 /* StarView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		8C2B4B3C2D4F4E3C9A4A0001 /* Currents */ = {
@@ -452,46 +492,6 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		8C2B4B2C2D4F4E3C9A4A0001 /* DesignSystem */ = {
-			isa = PBXGroup;
-			children = (
-				8C2B4B2D2D4F4E3C9A4A0001 /* Components */,
-			);
-			path = DesignSystem;
-			sourceTree = "<group>";
-		};
-		8C2B4B2D2D4F4E3C9A4A0001 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				8C2B4B252D4F4E3C9A4A0001 /* StarView.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		8C2B4ADC2D4F4E3C9A4A0001 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				8C2B4AD82D4F4E3C9A4A0001 /* HistoryView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		8C2B4ADD2D4F4E3C9A4A0001 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				8C2B4AD92D4F4E3C9A4A0001 /* HistoryViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		8C2B4AC22D4F4E3C9A4A0001 /* Navigation */ = {
-			isa = PBXGroup;
-			children = (
-				8C2B4AC42D4F4E3C9A4A0001 /* ExpeditionNavigationDestination.swift */,
-			);
-			path = Navigation;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -520,7 +520,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
-				LastUpgradeCheck = 1630;
+				LastUpgradeCheck = 2660;
 				TargetAttributes = {
 					8C2B4A962D4F4E3C9A4A0001 = {
 						CreatedOnToolsVersion = 16.3;
@@ -625,6 +625,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -652,6 +653,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -676,6 +678,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -685,6 +688,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -712,6 +716,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -729,6 +734,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
