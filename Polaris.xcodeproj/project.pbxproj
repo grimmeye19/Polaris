@@ -51,6 +51,8 @@
 		8C2B4B192D4F4E3C9A4A0001 /* ExpeditionSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B1B2D4F4E3C9A4A0001 /* ExpeditionSettingsViewModel.swift */; };
 		8C2B4B202D4F4E3C9A4A0001 /* ConstellationLayoutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B242D4F4E3C9A4A0001 /* ConstellationLayoutProvider.swift */; };
 		8C2B4B212D4F4E3C9A4A0001 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B252D4F4E3C9A4A0001 /* StarView.swift */; };
+		8C2B4B4A2D4F4E3C9A4A0001 /* PolarisTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B4C2D4F4E3C9A4A0001 /* PolarisTheme.swift */; };
+		8C2B4B4B2D4F4E3C9A4A0001 /* PolarisTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B4D2D4F4E3C9A4A0001 /* PolarisTypography.swift */; };
 		8C2B4B222D4F4E3C9A4A0001 /* ConstellationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B262D4F4E3C9A4A0001 /* ConstellationViewModel.swift */; };
 		8C2B4B232D4F4E3C9A4A0001 /* ConstellationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B272D4F4E3C9A4A0001 /* ConstellationView.swift */; };
 		8C2B4B302D4F4E3C9A4A0001 /* MapLayoutProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B4B332D4F4E3C9A4A0001 /* MapLayoutProvider.swift */; };
@@ -110,6 +112,8 @@
 		8C2B4B1B2D4F4E3C9A4A0001 /* ExpeditionSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeditionSettingsViewModel.swift; sourceTree = "<group>"; };
 		8C2B4B242D4F4E3C9A4A0001 /* ConstellationLayoutProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstellationLayoutProvider.swift; sourceTree = "<group>"; };
 		8C2B4B252D4F4E3C9A4A0001 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		8C2B4B4C2D4F4E3C9A4A0001 /* PolarisTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarisTheme.swift; sourceTree = "<group>"; };
+		8C2B4B4D2D4F4E3C9A4A0001 /* PolarisTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarisTypography.swift; sourceTree = "<group>"; };
 		8C2B4B262D4F4E3C9A4A0001 /* ConstellationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstellationViewModel.swift; sourceTree = "<group>"; };
 		8C2B4B272D4F4E3C9A4A0001 /* ConstellationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstellationView.swift; sourceTree = "<group>"; };
 		8C2B4B332D4F4E3C9A4A0001 /* MapLayoutProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLayoutProvider.swift; sourceTree = "<group>"; };
@@ -430,6 +434,8 @@
 			isa = PBXGroup;
 			children = (
 				8C2B4B2D2D4F4E3C9A4A0001 /* Components */,
+				8C2B4B4E2D4F4E3C9A4A0001 /* Theme */,
+				8C2B4B4F2D4F4E3C9A4A0001 /* Typography */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
@@ -440,6 +446,22 @@
 				8C2B4B252D4F4E3C9A4A0001 /* StarView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		8C2B4B4E2D4F4E3C9A4A0001 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4B4C2D4F4E3C9A4A0001 /* PolarisTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		8C2B4B4F2D4F4E3C9A4A0001 /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B4B4D2D4F4E3C9A4A0001 /* PolarisTypography.swift */,
+			);
+			path = Typography;
 			sourceTree = "<group>";
 		};
 		8C2B4B3C2D4F4E3C9A4A0001 /* Currents */ = {
@@ -604,6 +626,8 @@
 				8C2B4B192D4F4E3C9A4A0001 /* ExpeditionSettingsViewModel.swift in Sources */,
 				8C2B4B202D4F4E3C9A4A0001 /* ConstellationLayoutProvider.swift in Sources */,
 				8C2B4B212D4F4E3C9A4A0001 /* StarView.swift in Sources */,
+				8C2B4B4A2D4F4E3C9A4A0001 /* PolarisTheme.swift in Sources */,
+				8C2B4B4B2D4F4E3C9A4A0001 /* PolarisTypography.swift in Sources */,
 				8C2B4B222D4F4E3C9A4A0001 /* ConstellationViewModel.swift in Sources */,
 				8C2B4B232D4F4E3C9A4A0001 /* ConstellationView.swift in Sources */,
 				8C2B4B302D4F4E3C9A4A0001 /* MapLayoutProvider.swift in Sources */,
