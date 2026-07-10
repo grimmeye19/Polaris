@@ -28,18 +28,18 @@ struct EditMapEntryView: View {
                         }
                     }
 
-                    TextField("Titulo", text: $viewModel.title)
+                    TextField("Título", text: $viewModel.title)
                         .textInputAutocapitalization(.sentences)
                         .focused($focusedField, equals: .title)
                 }
 
                 Section {
-                    TextField("Descripcion o notas", text: $viewModel.content, axis: .vertical)
+                    TextField("Descripción o notas", text: $viewModel.content, axis: .vertical)
                         .lineLimit(4...8)
                 } header: {
                     Text("Notas")
                 } footer: {
-                    Text("Pieza manual del territorio de esta Expedicion. Solo conserva memoria.")
+                    Text("Pieza manual del territorio de esta Expedición. Solo conserva memoria.")
                 }
             }
             .navigationTitle(entry == nil ? "Agregar al territorio" : "Editar territorio")

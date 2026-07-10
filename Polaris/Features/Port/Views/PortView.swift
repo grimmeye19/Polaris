@@ -80,7 +80,7 @@ struct PortView: View {
 
             if let lastMomentDate = viewModel.lastMomentDate(from: moments) {
                 PortInfoCardView(
-                    title: "Ultimo Momento",
+                    title: "Último Momento",
                     subtitle: viewModel.formattedDate(lastMomentDate),
                     systemImage: "clock"
                 )
@@ -97,7 +97,7 @@ struct PortView: View {
                 ConstellationView(scope: .global)
             } label: {
                 PortInfoCardView(
-                    title: "Ver Constelacion",
+                    title: "Ver Constelación",
                     subtitle: "Una vista serena de los Momentos conservados.",
                     systemImage: "sparkles"
                 )
@@ -121,7 +121,7 @@ struct PortView: View {
                         } label: {
                             PortInfoCardView(
                                 title: expedition.name,
-                                subtitle: expedition.optionalDescription ?? "Expedicion en curso.",
+                                subtitle: expedition.optionalDescription ?? "Expedición en curso.",
                                 systemImage: "sailboat"
                             )
                         }
@@ -346,7 +346,7 @@ private struct PortAccessPlaceholderView: View {
                 .foregroundStyle(.secondary)
                 .fixedSize(horizontal: false, vertical: true)
 
-            Text("Este recurso permanece en el Puerto y no pertenece a ninguna Expedicion.")
+            Text("Este recurso permanece en el Puerto y no pertenece a ninguna Expedición.")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
                 .fixedSize(horizontal: false, vertical: true)

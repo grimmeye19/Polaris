@@ -5,8 +5,8 @@ final class PortViewModel: ObservableObject {
     let title = "Puerto"
     let subtitle = "Un lugar para volver antes de seguir navegando."
     let reminder = "El Puerto pertenece al Navegante. Conserva una vista general sin decidir por ti."
-    let emptyTitle = "Puerto esta en calma"
-    let emptyMessage = "Cuando registres Expediciones y Momentos, Puerto podra mostrarte una vista general de tu navegacion."
+    let emptyTitle = "Puerto está en calma"
+    let emptyMessage = "Cuando registres Expediciones y Momentos, Puerto podrá mostrarte una vista general de tu navegación."
 
     private let dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
@@ -25,7 +25,7 @@ final class PortViewModel: ObservableObject {
         PortAccessItem(
             kind: .provisions,
             title: "Provisiones",
-            subtitle: "Necesidades, limites y recordatorios propios.",
+            subtitle: "Necesidades, límites y recordatorios propios.",
             systemImage: "backpack"
         ),
         PortAccessItem(

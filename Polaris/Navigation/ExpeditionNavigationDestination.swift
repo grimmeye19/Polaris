@@ -22,7 +22,7 @@ enum ExpeditionNavigationDestination: String, Identifiable {
         case .registerMoment:
             "El registro de Momentos se implementara en la siguiente mision."
         case .history:
-            "La Historia se activara cuando existan Momentos dentro de la Expedicion."
+            "La Historia se activará cuando existan Momentos dentro de la Expedición."
         }
     }
 }

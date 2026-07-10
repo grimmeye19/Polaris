@@ -5,8 +5,8 @@ import SwiftData
 final class ExpeditionSettingsViewModel: ObservableObject {
     @Published private(set) var isSaving = false
 
-    let activeMessage = "Cerrar una Expedicion detiene nuevos Momentos, pero su Historia y su Mapa permanecen consultables."
-    let closedMessage = "Esta Expedicion ya esta cerrada. Su memoria permanece disponible para volver a ella con calma."
+    let activeMessage = "Cerrar una Expedición detiene nuevos Momentos, pero su Historia y su Mapa permanecen consultables."
+    let closedMessage = "Esta Expedición ya está cerrada. Su memoria permanece disponible para volver a ella con calma."
 
     private let dateFormatter: DateFormatter = {
         let formatter = DateFormatter()

@@ -2,8 +2,8 @@ import Foundation
 
 @MainActor
 final class HistoryViewModel: ObservableObject {
-    let emptyTitle = "Aun no hay Momentos"
-    let emptyMessage = "La Historia se construira cuando registres el primer Momento de esta Expedicion."
+    let emptyTitle = "Aún no hay Momentos"
+    let emptyMessage = "La Historia se construirá cuando registres el primer Momento de esta Expedición."
 
     private let dateFormatter: DateFormatter = {
         let formatter = DateFormatter()

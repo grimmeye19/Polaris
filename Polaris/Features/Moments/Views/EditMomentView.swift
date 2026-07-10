@@ -25,22 +25,22 @@ struct EditMomentView: View {
                         displayedComponents: [.date, .hourAndMinute]
                     )
 
-                    TextField("Titulo opcional", text: $viewModel.title)
+                    TextField("Título opcional", text: $viewModel.title)
                         .textInputAutocapitalization(.sentences)
                 }
 
                 Section {
-                    TextField("Que ocurrio?", text: $viewModel.exteriorText, axis: .vertical)
+                    TextField("¿Qué ocurrió?", text: $viewModel.exteriorText, axis: .vertical)
                         .lineLimit(4...8)
                         .focused($focusedField, equals: .exterior)
                 } header: {
                     Text("Exterior")
                 } footer: {
-                    Text("Hechos observables. Lo que podria recordarse sin convertirlo en conclusion.")
+                    Text("Hechos observables. Lo que podría recordarse sin convertirlo en conclusión.")
                 }
 
                 Section {
-                    TextField("Que ocurrio dentro de mi?", text: $viewModel.interiorText, axis: .vertical)
+                    TextField("¿Qué ocurrió dentro de mí?", text: $viewModel.interiorText, axis: .vertical)
                         .lineLimit(4...8)
                 } header: {
                     Text("Interior")
@@ -52,7 +52,7 @@ struct EditMomentView: View {
                     TextField("Notas libres", text: $viewModel.freeNotes, axis: .vertical)
                         .lineLimit(3...6)
                 } footer: {
-                    Text("Detalles que ayudan a recordar sin convertir este registro en una evaluacion.")
+                    Text("Detalles que ayudan a recordar sin convertir este registro en una evaluación.")
                 }
             }
             .navigationTitle("Editar Momento")
@@ -114,7 +114,7 @@ private enum Field {
             occurredAt: Date(),
             title: "Llegada al puerto",
             exteriorText: "Llegamos al puerto antes de que cerrara la tarde.",
-            interiorText: "Senti alivio y una calma dificil de explicar.",
+            interiorText: "Sentí alivio y una calma difícil de explicar.",
             freeNotes: "Recordar la luz sobre el agua."
         )
     )

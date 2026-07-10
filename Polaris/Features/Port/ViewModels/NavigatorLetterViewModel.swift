@@ -7,8 +7,8 @@ final class NavigatorLetterViewModel: ObservableObject {
     @Published private(set) var isSaving = false
     @Published private(set) var hasLoaded = false
 
-    let guidance = "Escribe desde un momento de claridad. Esta Carta habla de ti, no de una Expedicion ni de otra persona."
-    let placeholder = "Quien quiero seguir siendo...\n\nQue necesito recordar cuando me pierdo en una Expedicion...\n\nQue cosas no quiero abandonar de mi..."
+    let guidance = "Escribe desde un momento de claridad. Esta Carta habla de ti, no de una Expedición ni de otra persona."
+    let placeholder = "Quién quiero seguir siendo...\n\nQué necesito recordar cuando me pierdo en una Expedición...\n\nQué cosas no quiero abandonar de mí..."
 
     private let dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
@@ -57,7 +57,7 @@ final class NavigatorLetterViewModel: ObservableObject {
 
     func updatedAtText(for letter: NavigatorLetter?) -> String {
         guard let letter else {
-            return "Aun no guardada"
+            return "Aún no guardada"
         }
 
         return "Actualizada \(dateFormatter.string(from: letter.updatedAt))"

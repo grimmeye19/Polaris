@@ -6,7 +6,7 @@ final class MantrasViewModel: ObservableObject {
     @Published var text: String
     @Published private(set) var isSaving = false
 
-    let emptyTitle = "Aun no hay Mantras"
+    let emptyTitle = "Aún no hay Mantras"
     let emptyMessage = "Conserva frases breves que quieras poder recordar cuando necesites volver a ti."
     let guidance = "Los Mantras hablan del presente. Deben ser cortos, claros y escritos por el Navegante."
 

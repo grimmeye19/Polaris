@@ -25,22 +25,22 @@ final class ConstellationViewModel: ObservableObject {
     var title: String {
         switch scope {
         case .global:
-            return "Constelacion"
+            return "Constelación"
         case .expedition:
-            return "Constelacion"
+            return "Constelación"
         }
     }
 
     var emptyTitle: String {
-        "Aun no hay estrellas"
+        "Aún no hay estrellas"
     }
 
     var emptyMessage: String {
         switch scope {
         case .global:
-            return "El cielo del Navegante aparecera cuando existan Momentos registrados."
+            return "El cielo del Navegante aparecerá cuando existan Momentos registrados."
         case .expedition:
-            return "La Constelacion aparecera cuando esta Expedicion tenga Momentos registrados."
+            return "La Constelación aparecerá cuando esta Expedición tenga Momentos registrados."
         }
     }
 
@@ -123,7 +123,7 @@ final class ConstellationViewModel: ObservableObject {
             return moment.freeNotes
         }
 
-        return "Momento conservado en esta Expedicion."
+        return "Momento conservado en esta Expedición."
     }
 
     private func weight(for importance: MomentImportance) -> ConstellationStarWeight {

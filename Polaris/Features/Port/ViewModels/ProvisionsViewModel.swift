@@ -8,8 +8,8 @@ final class ProvisionsViewModel: ObservableObject {
     @Published var category: String
     @Published private(set) var isSaving = false
 
-    let emptyTitle = "Aun no hay Provisiones"
-    let emptyMessage = "Conserva aqui necesidades, limites y recordatorios que pertenecen al Navegante."
+    let emptyTitle = "Aún no hay Provisiones"
+    let emptyMessage = "Conserva aquí necesidades, límites y recordatorios que pertenecen al Navegante."
     let guidance = "Las Provisiones hablan de lo que necesitas proteger para no perderte a ti mismo."
 
     private let dateFormatter: DateFormatter = {

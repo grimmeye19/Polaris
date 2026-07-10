@@ -10,23 +10,23 @@ enum StormProtocol {
     static let steps: [StormProtocolStep] = [
         StormProtocolStep(
             id: 1,
-            title: "Que ocurrio",
-            prompt: "Nombra el hecho principal sin interpretarlo todavia."
+            title: "Qué ocurrió",
+            prompt: "Nombra el hecho principal sin interpretarlo todavía."
         ),
         StormProtocolStep(
             id: 2,
-            title: "Que observe",
+            title: "Qué observé",
             prompt: "Separa lo observado de lo imaginado."
         ),
         StormProtocolStep(
             id: 3,
-            title: "Que estoy suponiendo",
+            title: "Qué estoy suponiendo",
             prompt: "Escribe las suposiciones que estan presentes."
         ),
         StormProtocolStep(
             id: 4,
             title: "Revisar Historia",
-            prompt: "Vuelve a los Momentos de esta Expedicion."
+            prompt: "Vuelve a los Momentos de esta Expedición."
         ),
         StormProtocolStep(
             id: 5,
@@ -40,8 +40,8 @@ enum StormProtocol {
         ),
         StormProtocolStep(
             id: 7,
-            title: "Que queda abierto",
-            prompt: "Deja nombrado lo que aun necesita tiempo."
+            title: "Qué queda abierto",
+            prompt: "Deja nombrado lo que aún necesita tiempo."
         ),
     ]
 }

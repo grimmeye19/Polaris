@@ -23,7 +23,7 @@ struct ExpeditionDetailView: View {
             .frame(maxWidth: .infinity, alignment: .leading)
         }
         .background(Color(.systemGroupedBackground))
-        .navigationTitle("Expedicion")
+        .navigationTitle("Expedición")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .primaryAction) {
@@ -52,7 +52,7 @@ struct ExpeditionDetailView: View {
                     .foregroundStyle(.secondary)
                     .fixedSize(horizontal: false, vertical: true)
             } else {
-                Text("Esta Expedicion todavia no tiene descripcion.")
+                Text("Esta Expedición todavía no tiene descripción.")
                     .font(.body)
                     .foregroundStyle(.secondary)
             }
@@ -115,7 +115,7 @@ struct ExpeditionDetailView: View {
             NavigationLink {
                 ConstellationView(scope: .expedition(expedition))
             } label: {
-                Label("Ver Constelacion", systemImage: "sparkles")
+                Label("Ver Constelación", systemImage: "sparkles")
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
             .buttonStyle(.bordered)
@@ -125,7 +125,7 @@ struct ExpeditionDetailView: View {
 
     private var metadata: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Datos de la Expedicion")
+            Text("Datos de la Expedición")
                 .font(.headline)
 
             DetailRow(title: "Inicio", value: dateFormatter.string(from: expedition.startDate))

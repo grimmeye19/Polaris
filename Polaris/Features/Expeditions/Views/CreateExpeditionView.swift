@@ -16,7 +16,7 @@ struct CreateExpeditionView: View {
                         .textInputAutocapitalization(.sentences)
                         .focused($focusedField, equals: .name)
 
-                    TextField("Descripcion opcional", text: $viewModel.optionalDescription, axis: .vertical)
+                    TextField("Descripción opcional", text: $viewModel.optionalDescription, axis: .vertical)
                         .lineLimit(3...5)
 
                     DatePicker(
@@ -25,10 +25,10 @@ struct CreateExpeditionView: View {
                         displayedComponents: .date
                     )
                 } footer: {
-                    Text("Una Expedicion representa una etapa observada con atencion, no una persona ni un resultado.")
+                    Text("Una Expedición representa una etapa observada con atención, no una persona ni un resultado.")
                 }
             }
-            .navigationTitle("Nueva Expedicion")
+            .navigationTitle("Nueva Expedición")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
@@ -77,7 +77,7 @@ struct CreateExpeditionView: View {
             try modelContext.save()
             dismiss()
         } catch {
-            saveErrorMessage = "La Expedicion no pudo conservarse localmente."
+            saveErrorMessage = "La Expedición no pudo conservarse localmente."
         }
     }
 }

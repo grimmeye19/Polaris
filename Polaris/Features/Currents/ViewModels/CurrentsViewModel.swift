@@ -2,8 +2,8 @@ import Foundation
 
 @MainActor
 final class CurrentsViewModel: ObservableObject {
-    let emptyTitle = "No hay Momentos registrados todavia"
-    let emptyMessage = "Cuando registres mas Momentos, Corrientes podra mostrar tendencias simples."
+    let emptyTitle = "No hay Momentos registrados todavía"
+    let emptyMessage = "Cuando registres más Momentos, Corrientes podrá mostrar tendencias simples."
 
     private let calculator = CurrentsCalculator()
 
@@ -43,17 +43,17 @@ final class CurrentsViewModel: ObservableObject {
 
     func movementText(for movement: RecentMovement) -> String {
         if movement.absoluteChange == 0 {
-            return "Sin cambio respecto al periodo anterior."
+            return "Sin cambio respecto al período anterior."
         }
 
-        let direction = movement.absoluteChange > 0 ? "mas" : "menos"
+        let direction = movement.absoluteChange > 0 ? "más" : "menos"
         let absolute = abs(movement.absoluteChange)
 
         if let percentage = movement.percentageChange {
-            return "\(absolute) \(direction) que el periodo anterior (\(formattedPercentage(abs(percentage))))."
+            return "\(absolute) \(direction) que el período anterior (\(formattedPercentage(abs(percentage))))."
         }
 
-        return "\(absolute) \(direction) que el periodo anterior."
+        return "\(absolute) \(direction) que el período anterior."
     }
 
     func importanceName(for value: Int) -> String {
@@ -81,7 +81,7 @@ final class CurrentsViewModel: ObservableObject {
         case .earlyMorning:
             return "Madrugada"
         case .morning:
-            return "Manana"
+            return "Mañana"
         case .afternoon:
             return "Tarde"
         case .night:

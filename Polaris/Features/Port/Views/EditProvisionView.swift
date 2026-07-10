@@ -19,14 +19,14 @@ struct EditProvisionView: View {
         NavigationStack {
             Form {
                 Section {
-                    TextField("Titulo", text: $viewModel.title)
+                    TextField("Título", text: $viewModel.title)
                         .textInputAutocapitalization(.sentences)
                         .focused($focusedField, equals: .title)
 
-                    TextField("Categoria opcional", text: $viewModel.category)
+                    TextField("Categoría opcional", text: $viewModel.category)
                         .textInputAutocapitalization(.sentences)
                 } footer: {
-                    Text("Una Provision pertenece al Navegante y permanece fuera de cualquier Expedicion.")
+                    Text("Una Provisión pertenece al Navegante y permanece fuera de cualquier Expedición.")
                 }
 
                 Section {
@@ -36,10 +36,10 @@ struct EditProvisionView: View {
                 } header: {
                     Text("Recordatorio")
                 } footer: {
-                    Text("Necesidades, limites, principios o acuerdos contigo mismo.")
+                    Text("Necesidades, límites, principios o acuerdos contigo mismo.")
                 }
             }
-            .navigationTitle(provision == nil ? "Nueva Provision" : "Editar Provision")
+            .navigationTitle(provision == nil ? "Nueva Provisión" : "Editar Provisión")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
@@ -82,7 +82,7 @@ struct EditProvisionView: View {
             try viewModel.save(existing: provision, in: modelContext)
             dismiss()
         } catch {
-            saveErrorMessage = "La Provision no pudo conservarse localmente."
+            saveErrorMessage = "La Provisión no pudo conservarse localmente."
         }
     }
 }

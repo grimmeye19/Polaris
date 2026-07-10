@@ -3,8 +3,8 @@ import SwiftData
 
 @MainActor
 final class MapViewModel: ObservableObject {
-    let emptyTitle = "Aun no hay territorio guardado"
-    let emptyMessage = "El Mapa crecera cuando guardes gustos, fechas, frases, detalles o recuerdos compartidos de esta Expedicion."
+    let emptyTitle = "Aún no hay territorio guardado"
+    let emptyMessage = "El Mapa crecerá cuando guardes gustos, fechas, frases, detalles o recuerdos compartidos de esta Expedición."
 
     private let layoutProvider = MapLayoutProvider()
 

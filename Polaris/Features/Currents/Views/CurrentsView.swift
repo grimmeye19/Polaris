@@ -69,18 +69,18 @@ struct CurrentsView: View {
             }
 
             if let lastMomentDate = summary.lastMomentDate {
-                CurrentsInfoRow(title: "Ultimo Momento", value: viewModel.formattedDate(lastMomentDate))
+                CurrentsInfoRow(title: "Último Momento", value: viewModel.formattedDate(lastMomentDate))
             }
 
-            CurrentsInfoRow(title: "Ultimos 30 dias", value: "\(summary.recentMovement.lastThirtyDays) Momentos")
+            CurrentsInfoRow(title: "Últimos 30 días", value: "\(summary.recentMovement.lastThirtyDays) Momentos")
         }
     }
 
     private func recentMovementSection(_ movement: RecentMovement) -> some View {
         CurrentsSection(title: "Movimiento reciente") {
             VStack(alignment: .leading, spacing: 12) {
-                CurrentsInfoRow(title: "Ultimos 7 dias", value: "\(movement.lastSevenDays)")
-                CurrentsInfoRow(title: "7 dias anteriores", value: "\(movement.previousSevenDays)")
+                CurrentsInfoRow(title: "Últimos 7 días", value: "\(movement.lastSevenDays)")
+                CurrentsInfoRow(title: "7 días anteriores", value: "\(movement.previousSevenDays)")
 
                 Text(viewModel.movementText(for: movement))
                     .font(.subheadline)
@@ -95,7 +95,7 @@ struct CurrentsView: View {
             CurrentsSection(title: "Importancia registrada") {
                 VStack(alignment: .leading, spacing: 12) {
                     CurrentsInfoRow(title: "Promedio", value: "\(viewModel.formattedDecimal(importance.average)) / 3")
-                    CurrentsInfoRow(title: "Maximo", value: viewModel.importanceName(for: importance.maximum))
+                    CurrentsInfoRow(title: "Máximo", value: viewModel.importanceName(for: importance.maximum))
                     CurrentsInfoRow(title: "Mediana", value: viewModel.formattedDecimal(importance.median))
 
                     CurrentsBarRow(title: "Baja", count: importance.low, maxCount: max(importance.low, importance.normal, importance.high))
@@ -109,7 +109,7 @@ struct CurrentsView: View {
     private func tagsSection(_ tags: [FrequentTag]) -> some View {
         CurrentsSection(title: "Etiquetas frecuentes") {
             if tags.isEmpty {
-                Text("No hay etiquetas registradas en Momentos todavia.")
+                Text("No hay etiquetas registradas en Momentos todavía.")
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
             } else {
@@ -144,7 +144,7 @@ struct CurrentsView: View {
     }
 
     private func concentrationSection(_ summary: CurrentsSummary) -> some View {
-        CurrentsSection(title: "Concentracion") {
+        CurrentsSection(title: "Concentración") {
             VStack(alignment: .leading, spacing: 10) {
                 if let tagPercentage = summary.concentration.topThreeTagsPercentage {
                     CurrentsInfoRow(title: "Top etiquetas", value: viewModel.formattedPercentage(tagPercentage))
@@ -155,7 +155,7 @@ struct CurrentsView: View {
                 }
 
                 if let weekdayPercentage = summary.concentration.topThreeWeekdaysPercentage {
-                    CurrentsInfoRow(title: "Top dias", value: viewModel.formattedPercentage(weekdayPercentage))
+                    CurrentsInfoRow(title: "Top días", value: viewModel.formattedPercentage(weekdayPercentage))
                 }
             }
         }
@@ -164,10 +164,10 @@ struct CurrentsView: View {
     @ViewBuilder
     private func comparisonSection(_ comparison: ExpeditionComparison?) -> some View {
         if let comparison {
-            CurrentsSection(title: "Comparacion descriptiva") {
+            CurrentsSection(title: "Comparación descriptiva") {
                 VStack(alignment: .leading, spacing: 12) {
                     CurrentsInfoRow(
-                        title: "Esta Expedicion",
+                        title: "Esta Expedición",
                         value: "\(viewModel.formattedDecimal(comparison.expeditionMomentsPerWeek)) Momentos/semana"
                     )
                     CurrentsInfoRow(

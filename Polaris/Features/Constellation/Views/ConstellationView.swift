@@ -119,7 +119,7 @@ struct ConstellationView: View {
                     NavigationLink {
                         ExpeditionDetailView(expedition: expedition)
                     } label: {
-                        Label("Ir a Expedicion", systemImage: "arrow.right.circle")
+                        Label("Ir a Expedición", systemImage: "arrow.right.circle")
                             .frame(maxWidth: .infinity, alignment: .leading)
                     }
                     .buttonStyle(.bordered)

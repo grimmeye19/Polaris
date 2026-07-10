@@ -21,7 +21,7 @@ struct ExpeditionListView: View {
                     NavigationLink {
                         ConstellationView(scope: .global)
                     } label: {
-                        Label("Constelacion", systemImage: "sparkles")
+                        Label("Constelación", systemImage: "sparkles")
                     }
                 }
 
@@ -29,7 +29,7 @@ struct ExpeditionListView: View {
                     Button {
                         showsCreateExpedition = true
                     } label: {
-                        Label("Nueva Expedicion", systemImage: "plus")
+                        Label("Nueva Expedición", systemImage: "plus")
                     }
                 }
             }
@@ -87,7 +87,7 @@ struct ExpeditionListView: View {
                 title: viewModel.emptyTitle,
                 message: viewModel.emptyMessage,
                 systemImage: "sailboat",
-                actionTitle: "Nueva Expedicion"
+                actionTitle: "Nueva Expedición"
             ) {
                 showsCreateExpedition = true
             }

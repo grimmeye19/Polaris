@@ -22,17 +22,17 @@ struct CreateMomentView: View {
                 }
 
                 Section {
-                    TextField("Que ocurrio?", text: $viewModel.exteriorText, axis: .vertical)
+                    TextField("¿Qué ocurrió?", text: $viewModel.exteriorText, axis: .vertical)
                         .lineLimit(4...8)
                         .focused($focusedField, equals: .exterior)
                 } header: {
                     Text("Exterior")
                 } footer: {
-                    Text("Hechos observables. Lo que podria recordarse sin convertirlo en conclusion.")
+                    Text("Hechos observables. Lo que podría recordarse sin convertirlo en conclusión.")
                 }
 
                 Section {
-                    TextField("Que ocurrio dentro de mi?", text: $viewModel.interiorText, axis: .vertical)
+                    TextField("¿Qué ocurrió dentro de mí?", text: $viewModel.interiorText, axis: .vertical)
                         .lineLimit(4...8)
                 } header: {
                     Text("Interior")
@@ -44,7 +44,7 @@ struct CreateMomentView: View {
                     TextField("Notas libres", text: $viewModel.freeNotes, axis: .vertical)
                         .lineLimit(3...6)
                 } footer: {
-                    Text("Detalles que ayudan a recordar sin convertir este registro en una evaluacion.")
+                    Text("Detalles que ayudan a recordar sin convertir este registro en una evaluación.")
                 }
             }
             .navigationTitle("Nuevo Momento")

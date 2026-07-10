@@ -28,28 +28,28 @@ struct ExpeditionSettingsView: View {
                     Button(role: .destructive) {
                         showsCloseConfirmation = true
                     } label: {
-                        Label("Cerrar Expedicion", systemImage: "lock")
+                        Label("Cerrar Expedición", systemImage: "lock")
                     }
                     .disabled(viewModel.isSaving)
                 } footer: {
-                    Text("La Expedicion dejara de crecer, pero no se eliminara ningun Momento ni entrada del Mapa.")
+                    Text("La Expedición dejará de crecer, pero no se eliminará ningún Momento ni entrada del Mapa.")
                 }
             }
         }
         .navigationTitle("Ajustes")
         .navigationBarTitleDisplayMode(.inline)
         .confirmationDialog(
-            "Cerrar Expedicion",
+            "Cerrar Expedición",
             isPresented: $showsCloseConfirmation,
             titleVisibility: .visible
         ) {
-            Button("Cerrar Expedicion", role: .destructive) {
+            Button("Cerrar Expedición", role: .destructive) {
                 closeExpedition()
             }
 
             Button("Cancelar", role: .cancel) { }
         } message: {
-            Text("Su Historia y su Mapa seguiran disponibles. No se borrara memoria.")
+            Text("Su Historia y su Mapa seguirán disponibles. No se borrará memoria.")
         }
         .alert("No se pudo cerrar", isPresented: showsSaveError) {
             Button("Entendido", role: .cancel) { }

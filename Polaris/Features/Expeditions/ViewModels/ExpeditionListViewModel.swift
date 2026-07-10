@@ -2,8 +2,8 @@ import Foundation
 
 @MainActor
 final class ExpeditionListViewModel: ObservableObject {
-    let emptyTitle = "Aun no hay Expediciones"
-    let emptyMessage = "Cuando una etapa merezca ser observada con calma, podras iniciarla aqui."
+    let emptyTitle = "Aún no hay Expediciones"
+    let emptyMessage = "Cuando una etapa merezca ser observada con calma, podrás iniciarla aquí."
 
     private let dateFormatter: DateFormatter = {
         let formatter = DateFormatter()

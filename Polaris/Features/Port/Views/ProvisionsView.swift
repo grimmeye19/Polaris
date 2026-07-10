@@ -51,7 +51,7 @@ struct ProvisionsView: View {
                 Button {
                     showsCreateProvision = true
                 } label: {
-                    Label("Nueva Provision", systemImage: "plus")
+                    Label("Nueva Provisión", systemImage: "plus")
                 }
             }
         }
@@ -84,7 +84,7 @@ struct ProvisionsView: View {
             Button {
                 showsCreateProvision = true
             } label: {
-                Label("Nueva Provision", systemImage: "plus")
+                Label("Nueva Provisión", systemImage: "plus")
             }
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
@@ -116,7 +116,7 @@ struct ProvisionsView: View {
         do {
             try modelContext.save()
         } catch {
-            saveErrorMessage = "La Provision no pudo eliminarse localmente."
+            saveErrorMessage = "La Provisión no pudo eliminarse localmente."
         }
     }
 }
